@@ -19,7 +19,7 @@
 <style>
 .cards-list {
     z-index: 0;
-    width: 85%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -39,7 +39,7 @@
 
 .card-banner {
   margin: 30px auto;
-  border-radius: 40px;
+  border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   cursor: pointer;
   transition: 0.4s;
@@ -60,7 +60,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 66.25rem;
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -75,14 +75,23 @@
 	background-image:url('assets/media/back.png');
 	background-position: center; height:400px; width:100%;
 }
+
+.c-card-01 h1{
+  text-transform: uppercase;
+
+}
 .c-card-02 {
-	width:520px;
+	width:610px;
 }
 
 .c-card-02 .card-banner{
   
   height:400px; 
   width:100%
+}
+.c-card-02 h1{
+  text-transform: uppercase;
+
 }
   
 .card-block {
@@ -92,7 +101,7 @@
 }
 
 .c-card-03 {
-	width:520px;
+	width:610px;
 
 }
 
@@ -100,7 +109,10 @@
 	height:550px; 
 	width:100%
 }
-  
+  .c-card-03 h1{
+  text-transform: uppercase;
+
+}
  .c-card-03 .bg{
   background-image:url('assets/media/back.png');   background-position: center; height:550px; width:100%
   height:550px; 
@@ -1127,7 +1139,7 @@
 <div class="c-card-01">
 <div class="card-banner">
   <div class="card-block">
-<h2 style="color:#fff;"> Feature Store</h2>
+<h1 class="heading-03-alt" style="color:#fff;"><strong> Feature Store</strong></h1>
 <p style="color:#fff;">Install intranet features in seconds including industry specific experiences, app integrations and lorem ipsum.</p>
           <p><a style="color:#fff;border: 1px solid #fff;" href="#" class="btn btn-outline btn-sm">Social</a></p>
   </div>
@@ -1142,7 +1154,7 @@
   <div class="c-card-02">
 <div class="card-banner">
   <div class="card-block">
-<h2> Feature Store</h2>
+<h1 class="strong heading-03-alt"><strong>Feature Store</strong></h1>
 <p>Empower and transform your whole business with features like news, social and enterprise search.</p>
           <p><a href="#" class="btn btn-02">Social</a></p>
   
@@ -1168,7 +1180,7 @@
     <div class="c-card-03">
 <div class="card-banner bg">
   <div class="card-block">
-<h2 style="color:#fff;"> Feature Store</h2>
+<h1 class="heading-03-alt" style="color:#fff;"><strong>Feature Store</strong></h1>
 <p style="color:#fff;">Empower and transform your whole business with features like news, social and enterprise search.</p>
           <p><a style="color:#fff;border: 1px solid #fff;" href="#" class="btn btn-outline btn-sm">Social</a></p>
   </div>
