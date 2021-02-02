@@ -40,8 +40,7 @@
 .card-banner {
   margin: 30px auto;
   border-radius: 20px;
-  box-shadow: 0 4px 8px 0 rgba(28, 28, 27, 0.3);
-  filter: drop-shadow(5px 5px 10px rgba(28, 28, 27, 0.3));
+  box-shadow: 5px 5px 10px rgba(28, 28, 27, 0.3);
   cursor: pointer;
   transition: 0.4s;
 }
@@ -84,14 +83,14 @@ position: relative;
 }
 
 .c-card-01 .card-banner {
- background-image: url(assets/media/back.png); /* fallback */
+	background-image: url(assets/media/back.png); /* fallback */
+	background-image: linear-gradient(88deg,#000 0%,transparent 100%), url(assets/media/back.png);
+	background-position: center;
+	height:400px;
+	width:100%;
+}
 
-background-image: linear-gradient(88deg,#000 0%,transparent 100%), url(assets/media/back.png);
-	background-position: center; height:400px; width:100%;
-}
-.card-banner::after {
-    background: linear-gradient(0deg,#000 0%,transparent 100%);
-}
+
 
 .c-card-01 h1{
   text-transform: uppercase;

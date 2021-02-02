@@ -15,46 +15,37 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
 </head>
-
+<body>
 <style>
 
-span.live-icon {
-  display: inline-block;
-  top: calc(50% - 5px);
-  background-color: red;
-  width: 10px;
-  height: 10px;
-  margin-left: 20px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  z-index: 1;
+.live-status{
+    height:1.2rem;
+    width:1.2rem;
+    margin-top: 2px;
+    border-radius: 4rem;
+    
+     opacity: 0.0;
+
+    -webkit-animation: pulsate 1000ms ease-out;
+    -webkit-animation-iteration-count: infinite; 
+        
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear; 
+    background:red;
+    float:left;
 }
-span.live-icon:before {
-  content: "";
-  display: block;
-  position: absolute;
-  background-color: rgba(255, 0, 0, 0.6);
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  -webkit-animation: live 2s ease-in-out infinite;
-          animation: live 2s ease-in-out infinite;
-  z-index: -1;
-}
-  
-@keyframes live {
-  0% {
-    transform: scale(1,1);
-  }
-  100% {
-    transform: scale(3.5,3.5);
-    background-color: rgba(red,0);
-  }
+
+@-webkit-keyframes pulsate {
+    0% {opacity: 0.1;}
+    40% {opacity: 1.0;}
+    60% {opacity: 1.0;}
+    100% {opacity: 0.1;}
 }
 
 </style>
-<body>
-
 
 <header class="c-head">
 
@@ -817,7 +808,7 @@ span.live-icon:before {
         <div class="c-articles__content">
           <span class="tag tag-02">Events</span>
           <h3 class="c-articles__heading"><a href="#">7 must ask pulse survey questions to transform employee engagement</a></h3>
-        <a href="#" class="btn btn_live">Live<span class="live-icon"></span></a>
+		  <div class="live-status"></div><div class="c-metadata__item--live" style="float:left;margin-left:5px;">Live</div>
         </div>
       </li>
       <li class="c-articles__item">
