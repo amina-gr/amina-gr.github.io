@@ -1273,6 +1273,9 @@ th {
   .c-dropdown__icon--22 {
     background-image: url(../img/dropdown-icons/watch-demo.svg);
     background-size: 2.5rem 2.375rem; }
+		.c-dropdown__icon--23 {
+    background-image: url(../img/dropdown-icons/security.svg);
+    background-size: 2.5rem 2.375rem; }
 
 .c-subnav {
   padding-left: 5.3125rem;
