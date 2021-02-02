@@ -83,7 +83,9 @@ position: relative;
 }
 
 .c-card-01 .card-banner {
-	background-image:url('assets/media/back.png');
+ background-image: url(assets/media/back.png); /* fallback */
+
+background-image: linear-gradient(88deg,#000 0%,transparent 100%), url(assets/media/back.png);
 	background-position: center; height:400px; width:100%;
 }
 .card-banner::after {
@@ -129,8 +131,12 @@ position: relative;
 
 }
  .c-card-03 .bg{
-background-image: url(assets/media/back.png);
-    background-size: 200% 110%;
+ background-image: url(assets/media/back.png); /* fallback */
+
+background-image: linear-gradient(0deg,#000 0%,transparent 100%), url(assets/media/back.png);
+
+  height: 500px;
+    background-size: 280% 110%;
     height: 650px;
     background-position: center;
     width: 100% 
@@ -162,7 +168,7 @@ background-image: url(assets/media/back.png);
   text-align: center;
   position: absolute;
   transform: translate(-50%, -50%);
-  mix-blend-mode: screen;
+  mix-blend-mode: color;
   }
 
 /* 
