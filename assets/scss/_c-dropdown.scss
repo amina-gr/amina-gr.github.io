@@ -379,6 +379,10 @@
   }
   &--22 {
     background-image: url(#{$img-path}dropdown-icons/watch-demo.svg); 
-    background-size: rem-size(40px 38px);
+    background-size: rem-size(40px 25.6px);
+  }
+   &--23 {
+    background-image: url(#{$img-path}dropdown-icons/security.svg); 
+    background-size: rem-size(30.4px 38px);
   }
 }
