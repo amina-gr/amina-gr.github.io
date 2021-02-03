@@ -5426,7 +5426,7 @@ textarea.hs-input {
   width: 100%;
   padding: 2.5rem; }
 
-/*  code added starts here */
+/*  uncompiled code added starts here */  
 .c-metadata__item--livecircle{
     height:1.125rem;
     width:1.125rem;
@@ -5452,4 +5452,9 @@ textarea.hs-input {
     40% {opacity: 1.0;}
     60% {opacity: 1.0;}
     100% {opacity: 0.1;}
+}
+
+c-integrations__media{
+	
+	background: #fff; border:#DCDCDC 2px solid
 }
