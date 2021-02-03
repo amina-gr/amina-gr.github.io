@@ -474,6 +474,8 @@ th {
 
 .paragraph-02 {
   font-size: 1.25rem; }
+  .paragraph-03 {
+  margin-top: -10px; }
 
 .heading-01, .heading-01-alt, .heading-02, .heading-02-alt, .heading-03, .heading-03-alt, .heading-04, .heading-04-alt, .heading-05, .heading-05-alt, .heading-06, .heading-06-alt, .heading-07, .heading-07-alt {
   font-size: 1.875rem;
