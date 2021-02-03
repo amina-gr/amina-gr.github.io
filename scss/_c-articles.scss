@@ -283,6 +283,9 @@
       background-image: url(#{$img-path}icon-date-grey.svg);
     }
     &--location:before {
+      background-image: url(#{$img-path}icon-location-grey.svg);
+    }
+	&--virtual:before {
       background-image: url(#{$img-path}icon-virtual.svg);
     }
     &--watch:before {

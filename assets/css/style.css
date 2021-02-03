@@ -1893,6 +1893,8 @@ th {
     .c-metadata__item--date:before {
       background-image: url(../img/icon-date-grey.svg); }
     .c-metadata__item--location:before {
+      background-image: url(../img/icon-location-grey.svg); }
+	  .c-metadata__item--virtual:before {
       background-image: url(../img/icon-virtual.svg); }
     .c-metadata__item--watch:before {
       background-image: url(../img/ondemand-gray.svg); }
