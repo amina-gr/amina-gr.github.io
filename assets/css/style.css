@@ -5470,3 +5470,7 @@ c-integrations__media {
 	background: #fff;
 	border: #DCDCDC 2px solid;
 }
+
+.c-article__side-container .c-articles__media {
+	margin-bottom: 10px;
+}
