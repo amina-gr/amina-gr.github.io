@@ -293,12 +293,31 @@
     }
   }
   
+  &__item--livecircle {
+	height: 1.125rem;
+	width: 1.125rem;
+	margin-top: 2px;
+	border-radius: 50%;
+	opacity: 0.0;
+	-webkit-animation: pulsate 1000ms ease-out;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transition: background-color 300ms linear;
+	-moz-transition: background-color 300ms linear;
+	-o-transition: background-color 300ms linear;
+	-ms-transition: background-color 300ms linear;
+	transition: background-color 300ms linear;
+	background: red;
+	float: left;
+}
+  
   &__item--live {
     font-family: $font-alt;
     font-weight: bold;
     text-transform: uppercase;
     font-size: rem-size(18px) !important;
     color: $color-05;
+	float:left;
+	margin-left:6px;
 
     &:before {
       content: " ";
@@ -362,4 +381,22 @@ p.c-metadata__item {
   100% {
       opacity: 1;
   }
+}
+
+@-webkit-keyframes pulsate {
+	0% {
+		opacity: 0.1;
+	}
+
+	40% {
+		opacity: 1.0;
+	}
+
+	60% {
+		opacity: 1.0;
+	}
+
+	100% {
+		opacity: 0.1;
+	}
 }
