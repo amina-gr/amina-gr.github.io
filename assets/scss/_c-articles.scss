@@ -285,9 +285,6 @@
     &--location:before {
       background-image: url(#{$img-path}icon-location-grey.svg);
     }
-	&--virtual:before {
-      background-image: url(#{$img-path}icon-virtual.svg);
-    }
     &--watch:before {
       background-image: url(#{$img-path}ondemand-gray.svg);
     }
@@ -296,13 +293,11 @@
     }
   }
   
- }
-  
   &__item--live {
     font-family: $font-alt;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: rem-size(18px) !important;
+    font-size: rem-size(16px) !important;
     color: $color-05;
 
     &:before {
