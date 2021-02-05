@@ -366,21 +366,3 @@ p.c-metadata__item {
       opacity: 1;
   }
 }
-
-@-webkit-keyframes pulsate {
-	0% {
-		opacity: 0.1;
-	}
-
-	40% {
-		opacity: 1.0;
-	}
-
-	60% {
-		opacity: 1.0;
-	}
-
-	100% {
-		opacity: 0.1;
-	}
-}
