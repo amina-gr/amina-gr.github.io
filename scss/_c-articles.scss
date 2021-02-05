@@ -297,14 +297,14 @@
     font-family: $font-alt;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: rem-size(18px) !important;
+    font-size: rem-size(16px) !important;
     color: $color-05;
 
     &:before {
       content: " ";
       background: $color-05;
-      width: rem-size(18px) !important;
-      height: rem-size(18px) !important;
+      width: rem-size(16px) !important;
+      height: rem-size(16px) !important;
       border-radius: 50%;
       animation: live 1s infinite;
     }
