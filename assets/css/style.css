@@ -1913,8 +1913,8 @@ th {
     .c-metadata__item--live:before {
       content: " ";
       background: #ff0000;
-      width: 1.125rem !important;
-      height: 1.125rem !important;
+      width: 16px !important;
+      height: 16px !important;
       border-radius: 50%;
       animation: live 1s infinite; }
   @media (min-width: 768px) {
