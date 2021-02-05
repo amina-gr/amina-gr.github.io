@@ -288,6 +288,9 @@
     &--watch:before {
       background-image: url(#{$img-path}ondemand-gray.svg);
     }
+	&--virtual:before {
+	background-image: url(#{$img-path}icon-virtual.svg);
+    }
     &--live:before {
       background: none;
     }
