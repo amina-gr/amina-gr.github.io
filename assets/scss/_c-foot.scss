@@ -166,13 +166,13 @@
       margin-left: rem-size(5px);
       background-repeat: no-repeat;
       background-position: center center;
-      background-image: url(#{$img-path}icon-plus-dark.svg);
+      background-image: url(#{$cdn-url}icon-plus-dark.svg);
       background-size: rem-size(16px 16px);
     }
   }
 
   .c-popular__link.active:after {
-    background-image: url(#{$img-path}icon-minus-dark.svg);
+    background-image: url(#{$cdn-url}icon-minus-dark.svg);
   }
 
   &__nav {

@@ -143,13 +143,13 @@
       left: rem-size(15px);
 
       &:after {
-        background-image: url(#{$img-path}arrow-left-white.svg);
+        background-image: url(#{$cdn-url}arrow-left-white.svg);
       }
     }
     &--next {
       right: rem-size(15px);
       &:after {
-        background-image: url(#{$img-path}arrow-right-white.svg);
+        background-image: url(#{$cdn-url}arrow-right-white.svg);
       }
     }
   }
@@ -196,7 +196,7 @@
     font: 0/0 a;
     width: rem-size(100px);
     height: rem-size(100px);
-    background-image: url(#{$img-path}play4.svg);
+    background-image: url(#{$cdn-url}play4.svg);
     background-size: rem-size(68px 68px); //rem-size(34px 34px);
     background-repeat: no-repeat;
     background-position: center center;

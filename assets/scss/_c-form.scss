@@ -162,7 +162,7 @@
 
 .hs-form-checkbox input[type="checkbox"]:checked + span:before {
   border-color: $color-unily-light-blue;
-  background: url(#{$img-path}checkmark4.svg) no-repeat center center;
+  background: url(#{$cdn-url}checkmark4.svg) no-repeat center center;
   background-size: rem-size(12px 12px);
 }
 
@@ -235,7 +235,7 @@ select.hs-input:focus{color:$color-unily-light-blue;}
   overflow: hidden;
   margin: 0;
   position: relative;
-  background: url(#{$img-path}arrow-down4.svg) no-repeat;
+  background: url(#{$cdn-url}arrow-down4.svg) no-repeat;
   background-size: rem-size(20px 20px);
   background-position: right 15px center;
 

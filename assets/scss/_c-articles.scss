@@ -28,7 +28,7 @@
     &:before {
       content: " ";
       display: inline-block;
-      background: url(#{$img-path}icon-date-grey.svg) no-repeat center center;
+      background: url(#{$cdn-url}icon-date-grey.svg) no-repeat center center;
       background-size: rem-size(21px 21px);
       width: rem-size(21px);
       height: rem-size(21px);
@@ -280,16 +280,16 @@
     }
 
     &--date:before {
-      background-image: url(#{$img-path}icon-date-grey.svg);
+      background-image: url(#{$cdn-url}icon-date-grey.svg);
     }
     &--location:before {
-      background-image: url(#{$img-path}icon-location-grey.svg);
+      background-image: url(#{$cdn-url}icon-location-grey.svg);
     }
     &--watch:before {
-      background-image: url(#{$img-path}ondemand-gray.svg);
+      background-image: url(#{$cdn-url}ondemand-gray.svg);
     }
 	&--virtual:before {
-	background-image: url(#{$img-path}icon-virtual.svg);
+	background-image: url(#{$cdn-url}icon-virtual.svg);
     }
     &--live:before {
       background: none;

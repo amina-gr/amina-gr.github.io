@@ -85,7 +85,7 @@
     left: 0;
     bottom: 0;
     font: 0/0 a;
-    background: url(#{$img-path}icon-search-white.svg) no-repeat center center;
+    background: url(#{$cdn-url}icon-search-white.svg) no-repeat center center;
     background-size: rem-size(16px 16px);
     width: rem-size(40px);
     cursor: pointer;
@@ -118,7 +118,7 @@
       display: block;
       width: rem-size(40px);
       height: rem-size(40px);
-      background: url(#{$img-path}icon-close.svg) no-repeat center center;
+      background: url(#{$cdn-url}icon-close.svg) no-repeat center center;
       background-size: rem-size(16px 16px);
       opacity: 0.75;
     }

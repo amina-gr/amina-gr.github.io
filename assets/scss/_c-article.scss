@@ -74,7 +74,7 @@
     &:before {
       content: " ";
       display: inline-block;
-      background: url(#{$img-path}icon-date-grey.svg) no-repeat center center;
+      background: url(#{$cdn-url}icon-date-grey.svg) no-repeat center center;
       background-size: rem-size(21px 21px);
       width: rem-size(21px);
       height: rem-size(21px);
@@ -96,7 +96,7 @@
     &:before {
       content: " ";
       display: inline-block;
-      background: url(#{$img-path}icon-location-grey.svg) no-repeat center center;
+      background: url(#{$cdn-url}icon-location-grey.svg) no-repeat center center;
       background-size: rem-size(22px 24px);
       width: rem-size(22px);
       height: rem-size(24px);
@@ -271,17 +271,17 @@
 
     &--facebook:before {
       width: rem-size(14px);
-      background-image: url(#{$img-path}facebook-navy.svg);
+      background-image: url(#{$cdn-url}facebook-navy.svg);
       background-size: rem-size(14px 28px);
     }
     &--twitter:before {
       width: rem-size(34px);
-      background-image: url(#{$img-path}twitter-navy.svg);
+      background-image: url(#{$cdn-url}twitter-navy.svg);
       background-size: rem-size(34px 28px);
     }
     &--linkedin:before {
       width: rem-size(30px);
-      background-image: url(#{$img-path}linkedin-navy.svg);
+      background-image: url(#{$cdn-url}linkedin-navy.svg);
       background-size: rem-size(30px 28px);
     }
   }
