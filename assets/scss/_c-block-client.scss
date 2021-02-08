@@ -143,13 +143,13 @@
       left: rem-size(15px);
 
       &:after {
-        background-image: url(#{$cdn-url}arrow-left-white.svg);
+        background-image: url(#{$cdn-url}media/afvdjcxh/arrow-left-white.svg);
       }
     }
     &--next {
       right: rem-size(15px);
       &:after {
-        background-image: url(#{$cdn-url}arrow-right-white.svg);
+        background-image: url(#{$cdn-url}media/1yul22mo/arrow-right-white.svg);
       }
     }
   }
