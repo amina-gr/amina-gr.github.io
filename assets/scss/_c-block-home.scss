@@ -139,7 +139,7 @@
 
 .c-home-animation {
   position: relative;
-  background: url(#{$cdn-url}Unily-HomeCircles.svg) no-repeat center center;
+  background: url(#{$cdn-url}media/id2n2t3h/unily-homecircles.svg) no-repeat center center;
   background-size: contain;
   height: 550px;
   width: 550px;
@@ -165,7 +165,7 @@
     display: block;
     width: rem-size(91px);
     height: rem-size(91px);
-    background: url(#{$cdn-url}Unily-HomePlay.svg) no-repeat center center;
+    background: url(#{$cdn-url}media/1r4pjl2r/unily-homeplay.svg) no-repeat center center;
     background-size: rem-size(91px 91px);
 
     @media (max-width: $breakpoint-md-down) {

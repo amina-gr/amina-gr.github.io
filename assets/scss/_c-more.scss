@@ -109,12 +109,12 @@
     margin-left: rem-size(5px);
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url(#{$img-path}icon-plus-dark.svg);
+    background-image: url(#{$cdn-url}media/vs5dubzh/icon-plus-dark.svg);
     background-size: rem-size(12px 12px);
   }
 
   &.active:after {
-    background-image: url(#{$img-path}icon-minus-dark.svg);
+    background-image: url(#{$cdn-url}media/fath3k52/icon-minus-dark.svg);
   }
 }
 

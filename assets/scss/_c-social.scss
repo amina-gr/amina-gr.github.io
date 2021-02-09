@@ -27,24 +27,24 @@
     }
 
     &--linkedin:before {
-      background-image: url(#{$cdn-url}icon-social-linkedin.svg);
+      background-image: url(#{$cdn-url}media/mgtp43ap/icon-social-linkedin.svg);
     }
     &--youtube:before {
-      background-image: url(#{$cdn-url}icon-social-youtube.svg);
+      background-image: url(#{$cdn-url}media/ia5c1nvc/icon-social-youtube.svg);
       width: rem-size(25px);
       background-size: rem-size(25px 25px);
     }
     &--twitter:before {
-      background-image: url(#{$cdn-url}icon-social-twitter.svg);
+      background-image: url(#{$cdn-url}media/ww0nznoc/icon-social-twitter.svg);
       background-size: rem-size(22px 22px);
     }
     &--facebook:before {
-      background-image: url(#{$cdn-url}icon-social-facebook.svg);
+      background-image: url(#{$cdn-url}media/e1qehzds/icon-social-facebook.svg);
       background-size: rem-size(18px 18px);
       width: rem-size(10px);
     }
     &--instagram:before {
-      background-image: url(#{$cdn-url}icon-social-instagram.svg);
+      background-image: url(#{$cdn-url}media/ytqbespx/icon-social-instagram.svg);
       background-size: rem-size(18px 18px);
     }
   }
@@ -76,22 +76,22 @@
         background-size: rem-size(28px 28px);
       }
       &--linkedin:before {
-        background-image: url(#{$cdn-url}icon-social-linkedin-dark.svg);
+        background-image: url(#{$cdn-url}media/wytdv0xu/icon-social-linkedin-dark.svg);
       }
       &--vimeo:before {
-        background-image: url(#{$cdn-url}icon-social-vimeo-dark.svg);
+        background-image: url(#{$cdn-url}media/euomro2b/icon-social-vimeo-dark.svg);
       }
       &--twitter:before {
-        background-image: url(#{$cdn-url}icon-social-twitter-dark.svg);
+        background-image: url(#{$cdn-url}media/pgwgcdpo/icon-social-twitter-dark.svg);
         background-size: rem-size(28px 28px);
       }
       &--facebook:before {
-        background-image: url(#{$cdn-url}icon-social-facebook-dark.svg);
+        background-image: url(#{$cdn-url}media/gffbfb1h/icon-social-facebook-dark.svg);
         background-size: rem-size(24px 24px);
         width: rem-size(14px);
       }
       &--instagram:before {
-        background-image: url(#{$cdn-url}icon-social-instagram-dark.svg);
+        background-image: url(#{$cdn-url}media/imbjhssy/icon-social-instagram-dark.svg);
         background-size: rem-size(25px 25px);
       }
     }
