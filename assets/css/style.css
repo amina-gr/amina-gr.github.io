@@ -1362,14 +1362,14 @@ th {
           .c-subnav__link--more:after {
             content: " ";
             display: inline-block;
-            width: 0.75rem;
-            height: 0.75rem;
+            width: .68rem;
+			height: .68rem;
             vertical-align: 0;
             margin-left: 0.3125rem;
             background-repeat: no-repeat;
             background-position: center center;
             background-image: url(../img/icon-plus-light.svg);
-            background-size: 0.75rem 0.75rem; }
+            background-size: 100% }
           .c-subnav__link--more.active:after {
             background-image: url(../img/icon-minus-light.svg); } }
     @media (min-width: 1000px) {
