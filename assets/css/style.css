@@ -1368,7 +1368,7 @@ th {
             margin-left: 0.3125rem;
             background-repeat: no-repeat;
             background-position: center center;
-            background-image: url(../img/icon-plus-light.svg);
+            background-image: url(../img/plus-white.svg);
             background-size: 100% }
           .c-subnav__link--more.active:after {
             background-image: url(../img/icon-minus-light.svg); } }
