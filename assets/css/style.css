@@ -1371,7 +1371,7 @@ th {
             background-image: url(../img/plus-white.svg);
             background-size: 100% }
           .c-subnav__link--more.active:after {
-            background-image: url(../img/icon-minus-light.svg); } }
+            background-image: url(../img/minus-white.svg); } }
     @media (min-width: 1000px) {
       .c-subnav__link--more:before {
         content: " ";
