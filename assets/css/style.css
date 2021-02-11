@@ -467,7 +467,14 @@ th {
     vertical-align: -0.125rem; }
 
 .c-block-home__media .link-play:before {
-  background-image: url(../img/play-black.svg); }
+  background-image: url(../img/play-black.svg);
+     height: 26px;
+    background-repeat: no-repeat;
+    background-position: 95% 160%;
+    margin-right: 8px;
+
+
+  }
 
 .paragraph-01 {
   font-size: 1rem; }
