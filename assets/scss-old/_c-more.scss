@@ -100,22 +100,22 @@
 }
 
 .c-more__heading {
-    &:after {
-        content: " ";
-        display: inline-block;
-        width: rem-size(12px);
-        height: rem-size(12px);
-        vertical-align: 0;
-        margin-left: rem-size(5px);
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-image: url(#{$cdn-url}media/vs5dubzh/plus-black.svg);
-        background-size: rem-size(12px 12px);
-    }
+  &:after {
+    content: " ";
+    display: inline-block;
+    width: rem-size(12px);
+    height: rem-size(12px);
+    vertical-align: 0;
+    margin-left: rem-size(5px);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(#{$cdn-url}media/vs5dubzh/icon-plus-dark.svg);
+    background-size: rem-size(12px 12px);
+  }
 
-    &.active:after {
-        background-image: url(#{$cdn-url}media/fath3k52/minus-black.svg);
-    }
+  &.active:after {
+    background-image: url(#{$cdn-url}media/fath3k52/icon-minus-dark.svg);
+  }
 }
 
 .c-dropdown__box .c-more {

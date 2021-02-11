@@ -221,7 +221,7 @@
     width: rem-size(27px);
     height: rem-size(24px);
     position: absolute;
-    background: url(#{$cdn-url}media/3fhckdru/image-caption-black.svg) no-repeat;
+    background: url(#{$cdn-url}media/3fhckdru/icon-caption.svg) no-repeat;
     background-size: rem-size(27px 24px);
     top: 50%;
     margin-top: rem-size(-12px);
@@ -315,7 +315,7 @@
     font: 0/0 a;
     width: rem-size(16px);
     height: rem-size(16px);
-    background-image: url(#{$cdn-url}media/axbecndz/play-white.svg);
+    background-image: url(#{$cdn-url}media/axbecndz/play4.svg);
     background-size: rem-size(22px 22px);
     background-repeat: no-repeat;
     background-position: center center;
@@ -324,7 +324,7 @@
 }
 
 .c-block-home__media .link-play:before {
-  background-image: url(#{$cdn-url}media/bwkoyffj/play-black.svg);
+  background-image: url(#{$cdn-url}media/bwkoyffj/play4-dark.svg);
 }
 
 
@@ -752,7 +752,7 @@
   margin-right: auto;
   width: rem-size(65px);
   height: rem-size(65px);
-  background: url(#{$cdn-url}media/wfcnshva/check-white.svg) no-repeat center center;
+  background: url(#{$cdn-url}media/wfcnshva/icon-thank-you.svg) no-repeat center center;
   background-size: rem-size(65px 65px);
   margin-bottom: rem-size(15px);
 }

@@ -193,7 +193,7 @@
 
   .c-dropdown__wrap.active {
     .c-dropdown__link,
-    /*.c-subscribe,*/
+    .c-subscribe,
     .c-articles,
     .c-dropdown__heading,
     .c-subnav,
@@ -283,123 +283,106 @@
 }
 
 .c-dropdown__icon {
-    display: block;
-    height: rem-size(40px);
-    width: rem-size(46px);
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    position: relative;
-    transform: scale(0.85);
-    position: relative;
-    margin-left: rem-size(-2px);
+  display: block;
+  height: rem-size(40px);
+  width: rem-size(46px);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  position: relative;
+  transform: scale(0.85);
+  position: relative;
+  margin-left: rem-size(-2px);
 
-    &--01 {
-        background-image: url(#{$cdn-url}media/dckc0wby/communications.svg);
-        background-size: rem-size(40px 40px);
-    }
-
-    &--02 {
-        background-image: url(#{$cdn-url}media/cfudyntm/publishing.svg);
-        background-size: rem-size(40px 40px);
-    }
-
-    &--03 {
-        background-image: url(#{$cdn-url}media/cu5m5pko/search.svg);
-        background-size: rem-size(40px 40px);
-    }
-
-    &--04 {
-        background-image: url(#{$cdn-url}media/jmwp1kxz/social.svg);
-        background-size: rem-size(46px 40px);
-    }
-
-    &--05 {
-        background-image: url(#{$cdn-url}media/0ovkzti5/sites.svg);
-        background-size: rem-size(40px 40px);
-    }
-
-    &--06 {
-        background-image: url(#{$cdn-url}media/lw5f2224/analytics.svg);
-        background-size: rem-size(40px 23px);
-    }
-
-    &--07 {
-        background-image: url(#{$cdn-url}media/ow0h0xoy/mobile.svg);
-        background-size: rem-size(35px 40px);
-    }
-
-    &--08 {
-        background-image: url(#{$cdn-url}media/1q5l5o0d/integrations.svg);
-        background-size: rem-size(33px 40px);
-    }
-
-    &--09 {
-        background-image: url(#{$cdn-url}media/kyyim3ww/platform.svg);
-        background-size: rem-size(30px 40px);
-    }
-
-    &--10 {
-        background-image: url(#{$cdn-url}media/soaadarb/internal-communications.svg);
-        background-size: rem-size(40px 32px);
-    }
-
-    &--11 {
-        background-image: url(#{$cdn-url}media/iv0gjmug/knowledge.svg);
-        background-size: rem-size(40px 40px);
-    }
-
-    &--12 {
-        background-image: url(#{$cdn-url}media/huxdcljr/culture.svg);
-        background-size: rem-size(40px 40px);
-    }
-
-    &--13 {
-        background-image: url(#{$cdn-url}media/gm2lw0lk/networked-enterprise.svg);
-        background-size: rem-size(40px 40px);
-    }
-
-    &--14 {
-        background-image: url(#{$cdn-url}media/y3fcovx2/productivity.svg);
-        background-size: rem-size(40px 40px);
-    }
-
-    &--15 {
-        background-image: url(#{$cdn-url}media/3llpcnjm/frontline.svg);
-        background-size: rem-size(35px 40px);
-    }
-
-    &--17 {
-        background-image: url(#{$cdn-url}media/010hkddu/services.svg);
-        background-size: rem-size(30px 40px);
-    }
-
-    &--18 {
-        background-image: url(#{$cdn-url}media/d1gchcc4/partner.svg);
-        background-size: rem-size(40px 40px);
-    }
-
-    &--19 {
-        background-image: url(#{$cdn-url}media/huxdcljr/culture.svg);
-        background-size: rem-size(40px 40px);
-    }
-
-    &--20 {
-        background-image: url(#{$cdn-url}media/4h1nw1h3/contact.svg);
-        background-size: rem-size(40px 40px);
-    }
-
-    &--21 {
-        background-image: url(#{$cdn-url}media/w0ljyatw/unily-app.svg);
-        background-size: rem-size(40px 40px);
-    }
-
-    &--22 {
-        background-image: url(#{$cdn-url}media/3dflgb3s/watch-demo.svg);
-        background-size: rem-size(40px 25.6px);
-    }
-
-    &--23 {
-        background-image: url(#{$cdn-url}media/f03dqdob/security.svg);
-        background-size: rem-size(30.4px 38px);
-    }
+  &--01 {
+    background-image: url(#{$cdn-url}media/dckc0wby/communications.svg); 
+    background-size: rem-size(40px 40px);
+  }
+  &--02 {
+    background-image: url(#{$cdn-url}media/cfudyntm/publishing.svg); 
+    background-size: rem-size(40px 40px);
+  }
+  &--03 {
+    background-image: url(#{$cdn-url}media/cu5m5pko/search.svg); 
+    background-size: rem-size(40px 40px);
+  }
+  &--04 {
+    background-image: url(#{$cdn-url}media/jmwp1kxz/social.svg);
+    background-size: rem-size(46px 40px);
+  }
+  &--05 {
+    background-image: url(#{$cdn-url}media/0ovkzti5/sites.svg); 
+    background-size: rem-size(40px 40px);
+  }
+  &--06 {
+    background-image: url(#{$cdn-url}media/lw5f2224/analytics.svg);
+    background-size: rem-size(40px 23px);
+  }
+  &--07 {
+    background-image: url(#{$cdn-url}media/ow0h0xoy/devices.svg); 
+    background-size: rem-size(35px 40px);
+  }
+  &--08 {
+    background-image: url(#{$cdn-url}media/1q5l5o0d/integrations.svg); 
+    background-size: rem-size(33px 40px);
+  }
+  &--09 {
+    background-image: url(#{$cdn-url}media/kyyim3ww/platform.svg);
+    background-size: rem-size(30px 40px);
+  }
+  &--10 {
+    background-image: url(#{$cdn-url}media/soaadarb/internal-communications.svg);
+    background-size: rem-size(40px 32px);
+  }
+  &--11 {
+    background-image: url(#{$cdn-url}media/iv0gjmug/knowledge.svg);
+    background-size: rem-size(40px 40px);
+  }
+  &--12 {
+    background-image: url(#{$cdn-url}media/huxdcljr/culture.svg); 
+    background-size: rem-size(40px 40px);
+  }
+  &--13 {
+    background-image: url(#{$cdn-url}media/gm2lw0lk/networked-enterprise.svg); 
+    background-size: rem-size(40px 40px);
+  }
+  &--14 {
+    background-image: url(#{$cdn-url}media/y3fcovx2/productivity.svg); 
+    background-size: rem-size(40px 40px);
+  }
+  &--15 {
+    background-image: url(#{$cdn-url}media/3llpcnjm/frontline.svg); 
+    background-size: rem-size(35px 40px);
+  }
+  &--16 {
+    background-image: url(#{$cdn-url}dropdown-icons/company.svg);
+    background-size: rem-size(38px 40px);
+  }
+  &--17 {
+    background-image: url(#{$cdn-url}media/010hkddu/success.svg);
+    background-size: rem-size(30px 40px);
+  }
+  &--18 {
+    background-image: url(#{$cdn-url}media/d1gchcc4/partner.svg); 
+    background-size: rem-size(40px 40px);
+  }
+  &--19 {
+    background-image: url(#{$cdn-url}media/huxdcljr/culture.svg);
+    background-size: rem-size(40px 40px);
+  }
+  &--20 {
+    background-image: url(#{$cdn-url}media/4h1nw1h3/contact.svg); 
+    background-size: rem-size(40px 40px);
+  }
+  &--21 {
+    background-image: url(#{$cdn-url}media/aeyk4pqc/unily-app.svg); 
+    background-size: rem-size(40px 40px);
+  }
+  &--22 {
+    background-image: url(#{$cdn-url}media/3dflgb3s/watch-demo.svg); 
+    background-size: rem-size(40px 25.6px);
+  }
+   &--23 {
+    background-image: url(#{$cdn-url}media/f03dqdob/security.svg); 
+    background-size: rem-size(30.4px 38px);
+  }
 }

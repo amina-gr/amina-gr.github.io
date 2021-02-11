@@ -2,7 +2,7 @@
 
 .c-article {
 
-  /*&--blog-alt { //this was used as an alternate blog layout (full width __media), leaving it here just in case
+  &--blog-alt { //this was used as an alternate blog layout (full width __media), leaving it here just in case
     @media (min-width: $breakpoint-md) {
       grid-template-columns: 7.19fr 2.81fr;
       grid-template-rows: auto auto auto;
@@ -15,7 +15,7 @@
       .c-article__content { grid-area: c-article__content; }
       .c-article__side { grid-area: c-article__side; }
     }
-  }*/
+  }
 
   &--blog,
   &--event {
@@ -55,7 +55,7 @@
     }
   }
 
-  /*&__date,
+  &__date,
   &__location {
     font-size: rem-size(16px);
     font-weight: 500;
@@ -68,13 +68,13 @@
       font-size: rem-size(16px);
       margin-bottom: rem-size(24px);
     }
-  }*/
+  }
 
-  /*&__date {
+  &__date {
     &:before {
       content: " ";
       display: inline-block;
-      background: url(#{$cdn-url}media/svmfykiq/clock-gray.svg) no-repeat center center;
+      background: url(#{$cdn-url}media/svmfykiq/icon-date-grey.svg) no-repeat center center;
       background-size: rem-size(21px 21px);
       width: rem-size(21px);
       height: rem-size(21px);
@@ -90,13 +90,13 @@
         vertical-align: -3px;
       }
     }
-  }*/
+  }
 
-  /*&__location {
+  &__location {
     &:before {
       content: " ";
       display: inline-block;
-      background: url(#{$cdn-url}media/dbdikvvv/location-gray.svg) no-repeat center center;
+      background: url(#{$cdn-url}media/dbdikvvv/icon-location-grey.svg) no-repeat center center;
       background-size: rem-size(22px 24px);
       width: rem-size(22px);
       height: rem-size(24px);
@@ -110,12 +110,12 @@
         vertical-align: -2px;
       }
     }
-  }*/
+  }
 
-  /*.c-article__date + .c-article__location {
+  .c-article__date + .c-article__location {
     margin-top: rem-size(-5px);
     position: relative;
-  }*/
+  }
 
   .c-article__heading + .c-tags__list {
     position: relative;
@@ -128,8 +128,8 @@
 
   @media (max-width: $breakpoint-md-down) {
     &--blog,
-    &--event/*,
-    &--blog-alt*/ {
+    &--event,
+    &--blog-alt {
       .c-article__media {
         margin-left: rem-size(-20px);
         margin-right: rem-size(-20px);
@@ -271,7 +271,7 @@
 
     &--facebook:before {
       width: rem-size(14px);
-      background-image: url(#{$cdn-url}media/xuvf0fxx/facebook-navy.svg);
+      background-image: url(#{$cdn-url}media/klqjcuac/facebook-navy.svg);
       background-size: rem-size(14px 28px);
     }
     &--twitter:before {

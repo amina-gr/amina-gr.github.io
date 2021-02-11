@@ -319,12 +319,12 @@
 }
 
 #onetrust-pc-sdk #close-pc-btn-handler.ot-close-icon {
-    background: url(#{$cdn-url}media/uuzbwrlw/close-black.svg) no-repeat center center !important;
-    background-size: rem-size(12px 12px) !important;
+  background: url(#{$cdn-url}media/uuzbwrlw/icon-close-dark.svg) no-repeat center center !important;
+  background-size: rem-size(12px 12px) !important;
 
-    &:hover {
-        opacity: 1 !important;
-    }
+  &:hover {
+    opacity: 1 !important;
+  }
 }
 
 #onetrust-pc-sdk .ot-close-icon {
