@@ -281,6 +281,10 @@
 
         &--date:before {
             background-image: url(#{$cdn-url}media/svmfykiq/clock-gray.svg);
+			width: rem-size(20.4px) !important;
+			height: rem-size(20.4px) !important;
+			background-size: rem-size(18px_ !important;
+			margin-top:rem-size(-2px);
         }
 
         &--location:before {

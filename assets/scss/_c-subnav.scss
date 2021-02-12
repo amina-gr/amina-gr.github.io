@@ -29,14 +29,15 @@
 
         &:before {
             content: " ";
-            width: rem-size(15px);
-            height: rem-size(26px);
+            width: rem-size(12px);
+            height: rem-size(25px);
             background: url(#{$cdn-url}media/1yul22mo/arrow-right-white.svg) no-repeat;
             left: rem-size(14px);
-            background-size: rem-size(15px 26px);
+            background-size: rem-size(7.84px 24px);
             display: block;
             transform: rotate(180deg);
             position: absolute;
+			margin-top:-2px;
         }
     }
 
