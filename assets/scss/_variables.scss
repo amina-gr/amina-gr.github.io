@@ -2,7 +2,15 @@
 
 
 // Paths
-$cdn-url: 'https://unilyweb2020.azureedge.net/';
+$cdn-url: '';
+@if variable-exists(cdn-url-override)
+{
+    $cdn-url: $cdn-url-override;
+}
+@else
+{
+    $cdn-url: 'https://unilyweb2020dev.azureedge.net/';
+}
 
 //$fonts-path:  '../fonts/'; // #{$fonts-path}
 
