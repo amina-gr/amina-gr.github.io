@@ -1903,11 +1903,11 @@ th {
           background-size: 1.375rem 1.375rem; } }
     .c-metadata__item--date:before {
       background-image: url(../img/clock-gray.svg);
-    width: 1.275rem !important;
-    height: 1.275rem !important;
-    margin-right: .375rem;
-    background-size: 18px !important;
-	margin-top:-2px;
+ 	    width: 1.175rem !important;
+    height: 1.3rem !important;
+	margin-right: .375rem;
+    background-size: 1.20rem 1.126rem !important;
+    margin-top: -1px;
 
 	  }
     .c-metadata__item--location:before {
@@ -3747,7 +3747,7 @@ textarea.hs-input {
       max-width: 100%;
       height: auto; } }
 .c-block-home .link-play {
-  margin-top: 0.625rem;
+  margin-top: 30px;
   display: inline-block; }
 
 @keyframes hero {
