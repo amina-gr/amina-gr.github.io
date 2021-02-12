@@ -1906,6 +1906,7 @@ th {
     height: 1.275rem !important;
     margin-right: .375rem;
     background-size: 18px !important;
+	margin-top:-2px;
 
 	  }
     .c-metadata__item--location:before {
