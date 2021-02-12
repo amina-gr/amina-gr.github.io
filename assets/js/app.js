@@ -182,6 +182,7 @@ $(document).ready(function() {
   }
 
 
+
   // Loading Screen
 
   setTimeout(function(){
@@ -270,6 +271,11 @@ $(document).ready(function() {
           var scrollContainer = $(this).width(); //get the one specific to this
           var scrollArea = $(this).children().get(0).scrollWidth;
           var scrollOver = scrollArea-scrollContainer;
+		  
+		  var sideNavElement = $('.c-category-nav--side .c-category-nav__container')[0];
+		if (sideNavElement && window.matchMedia('(min-width: 678px)').matches) {
+        var sideNavBar = new SimpleBar(sideNavElement);
+      }
   
           if($(this).scrollLeft() >= 1){
             $(this).parent().addClass('c-category-nav--left');
@@ -294,6 +300,8 @@ $(document).ready(function() {
     }).resize();
 
   }
+  
+
 
 
   // Event sidebar form move for mobiles
