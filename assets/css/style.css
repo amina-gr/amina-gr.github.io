@@ -1318,7 +1318,8 @@ th {
          background-size: 0.49rem 1.50rem;
       display: block;
       transform: rotate(180deg);
-      position: absolute; }
+      position: absolute; 
+	  margin-top:-2px;}
   .c-subnav__heading {
     display: flex;
     padding-left: 3.75rem;
