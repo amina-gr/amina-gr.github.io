@@ -107,6 +107,10 @@
                 background-image: url(#{$cdn-url}media/imbjhssy/instagram-navy.svg);
                 background-size: rem-size(25px 25px);
             }
+			
+			&--youtube:before {
+                background-image: url(#{$cdn-url}media/4hnfbypb/youtube-navy.svg);
+            }
         }
     }
 }
