@@ -3634,9 +3634,9 @@ textarea.hs-input {
   .c-block-client__play {
     font: 0/0 a;
     width: 6.25rem;
-    height: 6.25rem;
+    height: 6.25rem; 
     background-image: url(../img/play-white.svg);
-    background-size: 4.25rem 4.25rem;
+    background-size: 3.2rem 3.2rem;
     background-repeat: no-repeat;
     background-position: center center;
     display: block;
