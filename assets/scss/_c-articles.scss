@@ -281,10 +281,10 @@
 
         &--date:before {
             background-image: url(#{$cdn-url}media/svmfykiq/clock-gray.svg);
-			width: rem-size(20.4px) !important;
-			height: rem-size(20.4px) !important;
-			background-size: rem-size(18px) !important;
-			margin-top:rem-size(-2px);
+			width: rem-size(18.8px) !important;
+			height: rem-size(20.8px) !important;
+			background-size: rem-size(19.2px 18.016px) !important;
+			margin-top:rem-size(-1px);
         }
 
         &--location:before {
