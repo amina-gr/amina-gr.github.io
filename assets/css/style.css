@@ -1902,7 +1902,7 @@ th {
           margin-right: 0.4375rem;
           background-size: 1.375rem 1.375rem; } }
     .c-metadata__item--date:before {
-      background-image: url(../img/icon-date-grey.svg);
+      background-image: url(../img/clock-gray.svg);
  	    width: 1.175rem !important;
     height: 1.3rem !important;
 	margin-right: .375rem;
@@ -1911,7 +1911,7 @@ th {
 
 	  }
     .c-metadata__item--location:before {
-      background-image: url(../img/location-gray.svg.svg); }
+      background-image: url(../img/location-gray.svg); }
 	  .c-metadata__item--virtual:before {
       background-image: url(../img/icon-virtual.svg); }
     .c-metadata__item--watch:before {
