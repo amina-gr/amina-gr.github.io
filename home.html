@@ -39,7 +39,6 @@ max-width:1280px;    margin-left: auto;
   margin: 10px auto;
   border-radius: 20px;
  /* box-shadow: 5px 5px 10px rgba(28, 28, 27, 0.3); */
-  cursor: pointer;
   transition: 0.4s;
 
 }
@@ -130,10 +129,10 @@ padding-left: 50px;
     padding-top: 50px;
     width: 400px;
 }
-}
+
 
 .card-logo-top {
-margin-bottom:21px;
+margin-bottom:1.25rem;
 }
 
 .c-card-03 {
@@ -170,10 +169,6 @@ background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.7) 0%,transparent 80%),
   }
 }
 
-.c-card-03:hover {
-	-webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-}
 
 
 .card-tag{
@@ -181,19 +176,9 @@ background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.7) 0%,transparent 80%),
     float: right;
     padding: 30px;
 }
-.card-tag .tag-text-01{
-  background-color: #3EC8ED;
-  color: black;
-  font-weight: bold;
-  margin: 0 auto;
-  text-align: center;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  mix-blend-mode: color;
-  vertical-align: baseline;
-  }
+
   
-.tag-text-01{
+.tag-ko-01{
   background-color: #3EC8ED;
   color: black;
   font-weight: bold;
@@ -208,7 +193,7 @@ background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.7) 0%,transparent 80%),
 
   
   
-  .tag-text-02{
+  .tag-ko-02{
   background-color: #DCDCDC;
   color: black;
   font-weight: bold;
@@ -220,7 +205,7 @@ background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.7) 0%,transparent 80%),
   vertical-align: baseline;
   }
   
-    .tag-text-03{
+    .tag-ko-03{
   background-color: #333333;
   color: black;
   font-weight: bold;
@@ -232,7 +217,7 @@ background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.7) 0%,transparent 80%),
   vertical-align: baseline;
   }
   
-    .tag-text-04{
+    .tag-ko-04{
   background-color: #FF2896;
   color: black;
   font-weight: bold;
@@ -244,7 +229,7 @@ background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.7) 0%,transparent 80%),
   vertical-align: baseline;
   }
   
-      .tag-text-05{
+      .tag-ko-05{
   background-color: #B479FF;
   color: black;
   font-weight: bold;
@@ -257,7 +242,7 @@ background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.7) 0%,transparent 80%),
   }
   
   
-      .tag-text-06{
+      .tag-ko-06{
   background-color: #3FC3A3;
   color: black;
   font-weight: bold;
@@ -270,7 +255,7 @@ background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.7) 0%,transparent 80%),
   }
  
   
-    .tag-text-09{
+    .tag-ko-09{
   background-color: #fff;
   color: black;
   font-weight: bold;
@@ -312,9 +297,18 @@ mix-blend-mode: screen;
 
 }
 .c-card-02 {
-    width: 49.2%;
+  /*  width: 49.2%;*/
+  width:100%;
     margin-bottom: 20px;
     height: unset;
+}
+.c-card-03 {
+  /*  width: 49.2%;*/
+  width:100%;
+
+}
+.card_img_portrait_right img {
+width:70%;
 }
   
 }
@@ -329,19 +323,13 @@ mix-blend-mode: screen;
   
 }
 
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 768px) {
   .c-cards {
   padding-left:0;
   padding-right:0;
@@ -354,7 +342,7 @@ mix-blend-mode: screen;
 .c-card-02{
 	width:100%;
 	height:100%;
-			margin-bottom: 0px;
+	margin-bottom: 0px;
 
 }
 
@@ -377,6 +365,7 @@ width:100%;
     margin-bottom: 20px;
 	margin-left: 25px;
 }
+
 
   
 }
@@ -1420,7 +1409,7 @@ width:100%;
 <div class="c-cards" id="card-mockup">
 <div class="c-card-01">
 <div class="card-banner">
-<div class="card-tag"><a href="#" class="tag tag-text-01">NEW</a></div>
+<div class="card-tag"><a href="#" class="tag tag-ko-01">NEW</a></div>
   <div class="c-card-block">
 <h1 class="heading-03-alt" style="color:#fff;"><strong> Feature Store</strong></h1>
 <p style="color:#fff;">Install intranet features in seconds including industry specific experiences, app integrations and lorem ipsum.</p>
@@ -1467,7 +1456,7 @@ width:100%;
 
     <div class="c-card-03">
 <div class="card-banner bg">
-<div class="card-tag"><a href="#" class="tag tag-text-09">NEW</a></div>
+<div class="card-tag"><a href="#" class="tag tag-ko-09">NEW</a></div>
   <div class="c-card-block">
 <h1 class="heading-03-alt" style="color:#fff;"><strong>Feature Store</strong></h1>
 <p style="color:#fff;">Empower and transform your whole business with features like news, social and enterprise search.</p>
