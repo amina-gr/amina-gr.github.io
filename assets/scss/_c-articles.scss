@@ -338,7 +338,7 @@
 }
 
 p.c-metadata__item {
-  margin-bottom: 0;
+  margin-bottom: rem-size(21px);
 
   & + p.c-metadata__item {
     margin-top: rem-size(10px);
