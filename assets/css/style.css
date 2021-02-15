@@ -1902,11 +1902,11 @@ th {
           margin-right: 0.4375rem;
           background-size: 1.375rem 1.375rem; } }
     .c-metadata__item--date:before {
-      background-image: url(../img/clock-gray.svg);
- 	    width: 1.175rem !important;
+      background-image: url(../img/icon-date-grey.svg);
+ 	/*    width: 1.175rem !important;
     height: 1.3rem !important;
 	margin-right: .375rem;
-    background-size: 1.20rem 1.126rem !important;
+    background-size: 1.20rem 1.126rem !important;*/
     margin-top: -1px;
 
 	  }
@@ -2026,7 +2026,7 @@ p.c-metadata__item {
 .c-article__date:before {
   content: " ";
   display: inline-block;
-  background: url(../img/clock-gray.svg) no-repeat center center;
+  background: url(../img/icon-date-grey.svg) no-repeat center center;
   background-size: 1.3125rem 1.3125rem;
   width: 1.3125rem;
   height: 1.3125rem;
