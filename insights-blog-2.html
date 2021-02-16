@@ -18,9 +18,25 @@
 
 <style>
 
-.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
 
-.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 461px; }
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 </style>
 <body>
@@ -649,8 +665,10 @@
       <div class="c-article__media">
 
        <!-- <img src="assets/media/705232072efb8cb6a6cca93b8b952dac498d8b4e.jpg" class="img-full" alt=""> -->
-		<iframe src="https://www.youtube.com/embed/MyaW2iGcI5g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+		<!--<iframe src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/MyaW2iGcI5g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
       </div>
 
       <div class="c-article__content">
