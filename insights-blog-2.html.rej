@@ -1,34 +1,10 @@
 diff a/insights-blog-2.html b/insights-blog-2.html	(rejected hunks)
-@@ -38,6 +38,32 @@
-     height: 100%;
- }
+@@ -643,7 +643,7 @@
  
-+.youtube-subscribe-btn {
-+     background-color: #e62117;
-+    border: none;
-+    color: white;
-+  padding: 3px 5px;
-+    text-align: center;
-+    text-decoration: none;
-+    display: inline-block;
-+    font: 12px "YouTube Noto",Roboto,arial,sans-serif;
-+    margin: 4px 2px;
-+    cursor: pointer;
-+  border-radius: 2px;
-+    box-shadow: 0 1px 0 rgb(0 0 0 / 5%);
-+}
-+.youtube-subscribe-btn .icon {
-+    background: url(/assets/img/youtube-white.svg) no-repeat;
-+    float: left;
-+    width: 20px;
-+    height: 20px;
-+    margin-right: 10px
-+}  
-+.youtube-subscribe-btn .span {
-+    float: left;
-+    width: 20px;
-+    height: 20px;
-+}  
- </style>
- <body>
+         <ul class="c-metadata c-metadata--alt">
+           <li class="c-metadata__item c-metadata__item--date">Feb 16, 2021</li>
+-		<li class="c-metadata__item c-metadata__item--youtube-subscribe" style="margin-top: -5px; margin-left: -25px;"><div class="g-ytsubscribe" data-channelid="UCrBY-u6uMbUQEDMHPjzxCHg" data-layout="default" data-count="hidden"></div></li> 
++		<li class="c-metadata__item c-metadata__item--youtube-subscribe" style="margin-top: -3px; margin-left: -25px;"><div class="g-ytsubscribe" data-channelid="UCrBY-u6uMbUQEDMHPjzxCHg" data-layout="default" data-count="hidden"></div></li> 
+         </ul>
+ 
  
