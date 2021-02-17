@@ -1907,6 +1907,7 @@ th {
     height: 1.3rem !important;
     background-size: 1.1rem 1.06rem !important;
     margin-top: -.0625rem;
+	margin-left:-2px;
 	  }
     .c-metadata__item--location:before {
       background-image: url(../img/location-gray.svg); }
