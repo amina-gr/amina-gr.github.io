@@ -5498,4 +5498,60 @@ textarea.hs-input {
 	margin-bottom: 10px;
 }
 
+.youtube-video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.youtube-video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.youtube-video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.youtube-subscribe-btn {
+
+     background-color: #ff0000;
+    border: none;
+    color: white;
+padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: 12px "YouTube Noto",Roboto,arial,sans-serif;
+    cursor: pointer;
+  border-radius: 2px;
+}
+.youtube-subscribe-btn:hover {
+     background-color: #e62117;
+ 
+}
+
+.youtube-subscribe-btn:focus {
+  outline: none !important;
+ 
+}
+.youtube-subscribe-btn .icon {
+    background: url(/media/zpncpwl4/youtube-white.svg) no-repeat;
+    float: left;
+    width: 17px;
+    height: 14.4px;
+    margin-right: 6px;
+	margin-top: 1.2px;
+}  
+.youtube-subscribe-btn .span {
+    float: left;
+    width: 20px;
+    height: 20px;
+}  
+
 
