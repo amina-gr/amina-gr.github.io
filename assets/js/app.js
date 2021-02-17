@@ -46,7 +46,7 @@ $(document).ready(function() {
   $('.js-link-search').on('click', function() {
     $('.c-search').addClass('active');
     $('.c-head').addClass('c-head--search');
-  // $('.c-search__field').focus();
+ // $('.c-search__field').focus();
     return false; //event.stopPropagation();
   });
 
