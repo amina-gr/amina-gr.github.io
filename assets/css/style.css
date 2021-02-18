@@ -1981,7 +1981,7 @@ p.c-metadata__item {
       grid-area: c-article__side; } }
 
 @media (min-width: 768px) {
-  .c-article--blog, .c-article--event {
+  .c-article--blog, .c-article--podcast, .c-article--event {
     grid-template-columns: 7.19fr 2.81fr;
     grid-template-rows: auto auto 1fr;
     grid-template-areas: "c-article__header c-article__header" "c-article__media  c-article__side" "c-article__content c-article__side";
@@ -2066,7 +2066,7 @@ p.c-metadata__item {
   margin-bottom: 1.875rem; }
 
 @media (max-width: 767px) {
-  .c-article--blog .c-article__media, .c-article--event .c-article__media, .c-article--blog-alt .c-article__media {
+  .c-article--blog .c-article__media, .c-article--podcast .c-article__media, .c-article--event .c-article__media, .c-article--blog-alt .c-article__media {
     margin-left: -1.25rem;
     margin-right: -1.25rem; } }
 
