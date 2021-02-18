@@ -4567,7 +4567,7 @@ textarea.hs-input {
 #onetrust-banner-sdk {
   box-shadow: none !important; }
 
-#onetrust-consent-sdk #onetrust-banner-sdk {
+ #onetrust-banner-sdk {
   background-color: #112A3F !important; }
 
 #onetrust-consent-sdk #onetrust-policy-text {
