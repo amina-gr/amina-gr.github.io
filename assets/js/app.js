@@ -231,7 +231,7 @@ $(document).ready(function() {
 
   // Cookie
 
-  /* if($('#onetrust-banner-sdk').length && $('.c-alert').length) {
+   if($('#onetrust-banner-sdk').length && $('.c-alert').length) {
     $(window).resize(function() {
       if($('#onetrust-banner-sdk:visible').length) {
         var alertHeight = $('.c-alert').outerHeight();
@@ -240,7 +240,7 @@ $(document).ready(function() {
       }
     }).resize();
   }
-*/
+
 
   // Equal height elements
 
