@@ -53,7 +53,7 @@ $(document).ready(function() {
   function closeSearch() {
     $('.c-search').removeClass('active');
     $('.c-head').removeClass('c-head--search');
-  $('.c-head').addClass('c-head--search-close').delay(100).queue(function(){
+  $('.c-head').addClass('c-head--search-close').delay(1100).queue(function(){
       $(this).removeClass('c-head--search-close').dequeue();
     });
   }
