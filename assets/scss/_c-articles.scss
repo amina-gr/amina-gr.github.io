@@ -321,6 +321,12 @@
             animation: live 1s infinite;
         }
     }
+	
+	 &__item--youtube-subscribe {
+        font-family: $font-alt;
+        margin-top: rem-size(-4px);
+		margin-left: rem-size(-25px);
+    }
 
     &--alt {
         @media (min-width: $breakpoint-md) {

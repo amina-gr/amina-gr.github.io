@@ -1932,6 +1932,11 @@ th {
       height: 16px !important;
       border-radius: 50%;
       animation: live 1s infinite; }
+	  .c-metadata__item--youtube-subscribe{
+		  margin-top: -4px; 
+		  margin-left: -25px;
+		  
+	  }
   @media (min-width: 768px) {
     .c-metadata--alt {
       display: flex; }
