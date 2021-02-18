@@ -244,10 +244,10 @@ $(document).ready(function() {
         var headHeight =  $('.c-head__wrap').outerHeight();
         $('#onetrust-banner-sdk').css('min-height', alertHeight+headHeight);
       }
-    }).resize();
-
+    }).resize(),
+	$('#onetrust-banner-sdk').appendChild(".c-head");
   }
-document.getElementById("onetrust-banner-sdk").appendChild('.c-head');
+
 
   // Equal height elements
 
