@@ -1992,13 +1992,13 @@ p.c-metadata__item {
     grid-template-areas: "c-article__header c-article__header" "c-article__media  c-article__side" "c-article__content c-article__side";
     gap: 0px 40px;
     display: grid; }
-    .c-article--blog .c-article__header, .c-article--event .c-article__header {
+    .c-article--blog .c-article__header, .c-article--podcast .c-article__header,  .c-article--event .c-article__header {
       grid-area: c-article__header; }
-    .c-article--blog .c-article__media, .c-article--event .c-article__media {
+    .c-article--blog .c-article__media, .c-article--podcast .c-article__media, .c-article--event .c-article__media {
       grid-area: c-article__media; }
-    .c-article--blog .c-article__content, .c-article--event .c-article__content {
+    .c-article--blog .c-article__content,.c-article--podcast .c-article__content,  .c-article--event .c-article__content {
       grid-area: c-article__content; }
-    .c-article--blog .c-article__side, .c-article--event .c-article__side {
+    .c-article--blog .c-article__side, .c-article--podcast .c-article__side, .c-article--event .c-article__side {
       grid-area: c-article__side; } }
 
 .c-article--guide .c-article__content {
