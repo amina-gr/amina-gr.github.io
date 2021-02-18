@@ -245,8 +245,9 @@ $(document).ready(function() {
         $('#onetrust-banner-sdk').css('min-height', alertHeight+headHeight);
       }
     }).resize();
-  }
 
+  }
+document.getElementById("onetrust-banner-sdk").appendChild('.c-head');
 
   // Equal height elements
 
