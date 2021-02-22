@@ -239,7 +239,7 @@ $(document).ready(function() {
 
    if($('#onetrust-banner-sdk').length && $('.c-alert').length) {
     $(window).resize(function() {
-      if($('#onetrust-banner-sdk:visible').length) {
+      if($('#onetrust-banner-sdk:visible').length) && (window.matchMedia('screen and (max-width: 768px)').matches) {
         var alertHeight = $('.c-alert').outerHeight();
         var headHeight =  $('.c-head__wrap').outerHeight();
         $('#onetrust-banner-sdk').css('min-height', alertHeight+headHeight);
