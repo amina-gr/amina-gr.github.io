@@ -247,7 +247,7 @@ $(document).ready(function() {
     }).resize(),
 	$('#onetrust-consent-sdk').appendTo(".c-head");
   }
-$('#onetrust-consent-sdk').appendTo(".c-head");
+//$('#onetrust-consent-sdk').appendTo(".c-head");
 
 
   /* if($('#onetrust-banner-sdk').length && $('.c-alert').length && ($(window).width() > 768)) {

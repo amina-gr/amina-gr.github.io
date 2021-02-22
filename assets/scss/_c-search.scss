@@ -148,7 +148,8 @@
       width: rem-size(840px);
       opacity: 1;
       visibility: visible;
-      transform: translateX(-50%);
+      /*transform: translateX(-50%);*/
+	  left:-50%;
     }
   }
 }
