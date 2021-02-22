@@ -19,7 +19,8 @@
 
   &--blog,
   &--event,
-  &--podcast{
+  &--podcast,
+   &--case-study{
     @media (min-width: $breakpoint-md) {
       grid-template-columns: 7.19fr 2.81fr;
       grid-template-rows: auto auto 1fr;
@@ -137,6 +138,7 @@
   @media (max-width: $breakpoint-md-down) {
     &--blog,
 	&--podcast,
+	&--case-study,
     &--event/*,
     &--blog-alt*/ {
       .c-article__media {
