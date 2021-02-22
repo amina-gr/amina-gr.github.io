@@ -237,7 +237,20 @@ $(document).ready(function() {
   */
   
 
-   if($('#onetrust-banner-sdk').length && $('.c-alert').length) {
+   if($('#onetrust-banner-sdk').length && $('.c-alert').length && (window.matchMedia('screen and (min-width: 1028px)').matches))  {
+    $(window).resize(function() {
+      if($('#onetrust-banner-sdk:visible').length ) {
+        var alertHeight = $('.c-alert').outerHeight();
+        var headHeight =  $('.c-head__wrap').outerHeight();
+        $('#onetrust-banner-sdk').css('min-height', alertHeight+headHeight);
+      }
+    }).resize(),
+	$('#onetrust-consent-sdk').appendTo(".c-head");
+  }
+//$('#onetrust-consent-sdk').appendTo(".c-head");
+
+
+  /* if($('#onetrust-banner-sdk').length && $('.c-alert').length && ($(window).width() > 768)) {
     $(window).resize(function() {
       if($('#onetrust-banner-sdk:visible').length) {
         var alertHeight = $('.c-alert').outerHeight();
@@ -246,8 +259,7 @@ $(document).ready(function() {
       }
     }).resize(),
 	$('#onetrust-consent-sdk').appendTo(".c-head");
-  }
-$('#onetrust-consent-sdk').appendTo(".c-head");
+  } */
 
   // Equal height elements
 
