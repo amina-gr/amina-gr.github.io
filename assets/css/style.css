@@ -5012,6 +5012,9 @@ textarea.hs-input {
 
 .c-content__content li {
   margin-bottom: 0.3125rem; }
+  
+  .c-content__content ul li li {
+list-style-type: disc; }
 
 .c-content__content a:not(.btn):not(.tag):hover {
   background-size: 100% 2px; }
