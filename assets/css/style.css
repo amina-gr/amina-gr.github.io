@@ -5570,3 +5570,16 @@ padding: 5px 8px;
      margin-left: 0 !important;
 	
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+#onetrust-consent-sdk #onetrust-policy-text {
+    width: 360px;
+    height: 2.8em;
+    line-height: 1.4em;
+    display: flex;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+}
