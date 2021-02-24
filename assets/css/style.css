@@ -5571,7 +5571,7 @@ padding: 5px 8px;
 	
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 680px) {
 #onetrust-consent-sdk #onetrust-policy-text {
       /*   width: 360px;
   height: 2.8em; 
