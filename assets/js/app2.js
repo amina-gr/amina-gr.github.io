@@ -247,6 +247,8 @@ $(document).ready(function() {
     }).resize(),
 	$('#onetrust-consent-sdk').appendTo(".c-head");
   }
+  
+  
 //$('#onetrust-consent-sdk').appendTo(".c-head");
 
 
