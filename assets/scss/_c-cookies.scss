@@ -150,7 +150,7 @@
 
 #onetrust-banner-sdk .ot-sdk-container {
   width: 100% !important;
-  padding: rem-size(15px 20px) !important;
+  padding: rem-size(8px 20px) !important;
   margin-left: auto !important;
   margin-right: auto !important;
   max-width: rem-size(1600px) !important;
@@ -364,4 +364,17 @@
 
 #onetrust-pc-sdk .ot-chkbox label::before {
   border: 1px solid $color-unily-light-blue !important;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	#onetrust-consent-sdk {
+		#onetrust-banner-sdk {
+			height: 160px !important;
+		}
+	}
+}
+@media (min-width: 320px) and (max-width: 1028px) {
+	#onetrust-banner-sdk.otFlat {
+		position: fixed;
+	}
 }
